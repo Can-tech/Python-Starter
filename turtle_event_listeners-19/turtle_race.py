@@ -14,7 +14,6 @@ for i in range(0,6):
     new_turtle.penup()
     new_turtle.goto(x=-230, y=y_positions[i])
     all_turtles.append(new_turtle)
-
 if user_bet:
     is_race_on = True
 while is_race_on:

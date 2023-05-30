@@ -31,4 +31,6 @@ plt.plot(x,y)
 plt.savefig("graph2.jpg",format="jpeg")
 plt.show()
 
+#ALGORİTMALARA BİR BAK ASAL OLMAYAN BULMA etc.
+
 
