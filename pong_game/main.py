@@ -30,6 +30,7 @@ while game_is_on:
     #Detect colision with r_paddle
     if ball.distance(r_paddle) < 60 and ball.xcor() > 330 or ball.distance(l_paddle) < 60 and ball.xcor() < -330:
         ball.bounce_x()
+    #Update the Scoreboard
     if(ball.xcor() > 400):
         screen.tracer(0)
         scoreboard.l_point()
