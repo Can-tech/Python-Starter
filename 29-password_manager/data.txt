@@ -1,0 +1,8 @@
+mypass.com|name@mail.com|1234
+12345|name@mail.com|1111
+12345||2222
+asfd|name@mail.com|asdf
+sf|name@mail.com|asfd
+asf|name@mail.com|asdf
+111|111|111
+111|name@mail.com|1111
