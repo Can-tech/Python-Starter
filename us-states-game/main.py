@@ -25,10 +25,10 @@ while len(guest_states) < 50:
         state_data = data[data.state == answer_state]
         t.goto(int(state_data.x), int(state_data.y))
         t.write(state_data.state.item())
-remaining_states=[]
-for state in all_states:
-    if state not in guest_states:
-        remaining_states.append(state)
+remaining_states=[state for state in all_states if state not in guest_states]
+# for state in all_states:
+#     if state not in guest_states:
+#         remaining_states.append(state)
 new_data=pandas.DataFrame(remaining_states)
 new_data.to_csv("us-states-game/forgotten_states.csv")
 
